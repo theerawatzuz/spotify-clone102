@@ -1,19 +1,15 @@
 import React from "react";
-import styled from "styled-components";
-import { useHistory } from "react-router-dom"
+import styled from "styled-components"
 
-export default function Login() {
-
-    const history = useHistory();
+export default function LoginMethod() {
 
     const handleClick = () => {
-        history.push("/mainpage")
+        
     }
-
     return <Container>
         <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Black.png" 
         alt="spotify-logo" />
-        <button onClick={handleClick}>Go Spotify</button>
+        <button onClick={handleClick}>Connect Spotify</button>
     </Container>
     
 }
